@@ -1,0 +1,33 @@
+<form [formGroup]="myForm" class="row g-3 needs-validation text-center" novalidate>
+  <div class="">
+    <label for="validationCustom03" class="form-label">Name</label>
+    <input formControlName="name" type="text" class="form-control text-center" id="validationCustom03" required>
+  </div>
+  <div class="">
+    <label for="validationCustomUsername" class="form-label">Username</label>
+    <input formControlName="username" type="text" class="form-control text-center" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+  </div>
+  <div class="">
+    <label for="validationCustom03" class="form-label">Email</label>
+    <input formControlName="email" type="text" class="form-control text-center" id="validationCustom03" required>
+  </div>
+  <div class="">
+    <label for="validationCustom03" class="form-label">Address</label>
+    <input formControlName="address" type="text" class="form-control text-center" id="validationCustom03" required>
+  </div>
+  <div class="">
+    <label for="validationCustom03" class="form-label">Phone</label>
+    <input formControlName="phone" type="text" class="form-control text-center" id="validationCustom03" required>
+  </div>
+  <div class="">
+    <label for="validationCustom03" class="form-label">website</label>
+    <input formControlName="website" type="text" class="form-control text-center" id="validationCustom03" required>
+  </div>
+  <div class="">
+    <label for="validationCustom03" class="form-label">Company</label>
+    <input formControlName="company" type="text" class="form-control text-center" id="validationCustom03" required>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="button" (click)="onClick()">Send</button>
+  </div>
+</form>
